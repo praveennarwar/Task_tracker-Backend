@@ -22,7 +22,7 @@ app.use(cookieParser())
 
 
 app.use(cors({
-    origin: '*',
+    origin: 'https://task-tracker-tawny-seven.vercel.app',
     credentials: true,
   }));
 
